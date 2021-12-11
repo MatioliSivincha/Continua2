@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:text="Zapatillas"
-            android:textSize="24sp" >
+            android:textSize="24dp" >
 
         </TextView>
 
