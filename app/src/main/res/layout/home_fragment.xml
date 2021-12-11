@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".HomeFragment"
-    android:background="#040404">
+    android:background="@color/black">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -18,7 +18,7 @@
             android:layout_width="147dp"
             android:layout_height="match_parent"
             app:title="Inicio"
-            app:titleTextColor="@color/white" />
+            app:titleTextColor="#FFFFFF" />
     </com.google.android.material.appbar.AppBarLayout>
 
     <LinearLayout
@@ -31,9 +31,46 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
+            android:textColor="#0325FF"
             android:layout_gravity="center_horizontal"
             android:textSize="40sp"
             android:layout_marginLeft="80dp"
             android:text="Zapatillas" />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="168dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="58dp"
+            android:layout_marginBottom="10dp"
+            app:srcCompat="@drawable/nike"></ImageView>
+
+        <TextView
+            style="@style/TextAppearance.AppCompat.Display3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20sp"
+            android:layout_marginLeft="80dp"
+            android:text="Nike Talla 40" />
+
+        <ImageView
+            android:layout_width="184dp"
+            android:layout_height="151dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="58dp"
+            android:layout_marginBottom="10dp"
+            app:srcCompat="@drawable/adidas"></ImageView>
+
+        <TextView
+            style="@style/TextAppearance.AppCompat.Display3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20sp"
+            android:layout_marginLeft="80dp"
+            android:text="Adidas Talla 38" />
+
     </LinearLayout>
 </LinearLayout>
